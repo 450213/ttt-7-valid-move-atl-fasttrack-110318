@@ -3,7 +3,7 @@
 def valid_move? (board, index)
   if board[index] == " "|| board[index]==""|| board[index]
     return true
-  else if board[index]== "X"|| board[index]== "O" || board[index]==nil
+  else if board[index]== "X"|| board[index]== "O" 
     return false
   end
   end
