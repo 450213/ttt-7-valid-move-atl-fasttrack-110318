@@ -1,9 +1,9 @@
 # code your #valid_move? method here
 
 def valid_move? (board, index)
-  if board[index] == " "|| board[index]==""|| board[index]==nil
+  if board[index] == " "|| board[index]==""|| board[index]
     return true
-  else if board[index]== "X"|| board[index]== "O"
+  else if board[index]== "X"|| board[index]== "O" || board[index]==nil
     return false
   end
   end
